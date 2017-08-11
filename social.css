@@ -1,4 +1,6 @@
-/*** Basic styles*/
+/**
+* Basic styles
+*/
 
 /* locker text */
 .onp-sociallocker .onp-sociallocker-strong,
@@ -49,7 +51,9 @@
     margin: 0px;
 }
 
-/*** Locker Messages*/
+/**
+* Locker Messages
+*/
 
 .onp-sociallocker .onp-sociallocker-text {
     text-align: center;
@@ -60,7 +64,9 @@
     display: inline-block;
 }
 
-/*** Locker Errors*/
+/**
+* Locker Errors
+*/
 
 .onp-sociallocker-state-error .onp-social-button {
     display: none;
@@ -95,7 +101,9 @@
     display: none;
 }
 
-/*** Locker Buttons*/
+/**
+* Locker Buttons
+*/
 
 .onp-sociallocker-buttons {
     text-align: center;
@@ -113,7 +121,7 @@
     box-sizing: border-box;
 }
 .onp-sociallocker-state-loading .onp-sociallocker-button-inner-wrap { 
-    background: url('img/button-loader-f2f2f2.gif') 50% 50% no-repeat;
+    background: url('http://1.bp.blogspot.com/-rmBq4v6cP4w/U5qZZdqHAfI/AAAAAAAAARo/UC6aC0QqIU8/s1600/button-loader-f2f2f2.gif') 50% 50% no-repeat;
 }
 
 .onp-social-button {
@@ -201,7 +209,9 @@
     text-align: center;
     line-height: 13px;
 }
-/*** Overlay for buttons*/
+/**
+* Overlay for buttons
+*/
 
 .onp-sociallocker-button-overlay * {
     position: absolute;
@@ -218,10 +228,12 @@
     box-sizing: content-box;
 }
 
-/*** Helper tools (timer, close icon)*/
+/**
+* Helper tools (timer, close icon)
+*/
 
 .onp-sociallocker .onp-sociallocker-cross {
-    background: url('img/close.png') 50% 50% no-repeat;
+    background: url('http://3.bp.blogspot.com/-u2TLiDrfJYU/U5qZaUeRbyI/AAAAAAAAAR8/DUTwy-FZ1SE/s1600/close.png') 50% 50% no-repeat;
     width: 16px;
     height: 16px;
     opacity: 0.1;
@@ -262,7 +274,9 @@
     position: relative;
 }
 
-/*** Base styles of the flip effect*/
+/**
+* Base styles of the flip effect
+*/
 .onp-sociallocker-flip .onp-sociallocker-button-inner-wrap
 {
     perspective: 500px;
@@ -328,7 +342,8 @@
     text-shadow: none;
 }
 
-/*** Secrets style
+/**
+* Secrets style
 *
 * Credits:
 * http://dribbble.com/shots/457259-Twitter-Button-Concept
@@ -376,7 +391,7 @@
     width: 11px;
     height: 14px;
     margin: 0 9px;
-    background: url('img/lock-icon.png') 0px 2px no-repeat;
+    background: url('http://3.bp.blogspot.com/-zh68d9Qv_cQ/U5qZboEospI/AAAAAAAAASw/fX_SFK1bdno/s1600/lock-icon.png') 0px 2px no-repeat;
 }
 @media screen and (max-width: 500px) 
 {
@@ -406,7 +421,7 @@
 }
 .onp-sociallocker-secrets .onp-sociallocker-button .onp-sociallocker-overlay-front {
     background: #eaeaea;
-    background-image: url('img/secrets-bg.png');
+    background-image: url('http://1.bp.blogspot.com/-XeR66KwhG5I/U5qZbx2MtDI/AAAAAAAAASU/MPyjCwtGZ2I/s1600/secrets-bg.png');
     background-repeat: repeat-x;
     box-shadow: inset 0 2px 0 rgba(255,255,255,.25);
     -moz-box-shadow: inset 0 2px 0 rgba(255,255,255,.25);
@@ -416,7 +431,7 @@
 .onp-sociallocker-secrets .onp-sociallocker-button .onp-sociallocker-overlay-icon {
     height: 34px;
     width: 44px;
-    background: url('img/social-icons.png') 0 50% no-repeat;
+    background: url('http://1.bp.blogspot.com/-0XAzn5_MtDA/U5qZcIegt6I/AAAAAAAAASY/MkLnSkKpoz0/s1600/social-icons.png') 0 50% no-repeat;
     position: absolute;
 }
 .onp-sociallocker-secrets .onp-sociallocker-button .onp-sociallocker-overlay-line {
@@ -546,7 +561,7 @@
     color: #777;
 }
 .onp-sociallocker-secrets .onp-sociallocker-state-loading .onp-sociallocker-button-inner-wrap { 
-    background-image: url('img/button-loader-eaeaea.gif');
+    background-image: url('http://2.bp.blogspot.com/-9OIqdswfNJY/U5qZZd6U3aI/AAAAAAAAARk/tDdmAeeC_Cc/s1600/button-loader-eaeaea.gif');
 }
 
 /**
@@ -555,7 +570,7 @@
 
 .onp-sociallocker-dandyish {
     padding: 7px;
-    background: url('img/dandysh-border.png');
+    background: url('http://2.bp.blogspot.com/-Ew8vy6sdtDA/U5qZa2zEPNI/AAAAAAAAASE/2Qnmos4jbkc/s1600/dandysh-border.png');
     border-radius: 12px;
     -moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
@@ -597,7 +612,7 @@
     width: 11px;
     height: 14px;
     margin: 0 9px;
-    background: url('img/lock-icon.png') 0px 2px no-repeat;
+    background: url('http://3.bp.blogspot.com/-zh68d9Qv_cQ/U5qZboEospI/AAAAAAAAASw/fX_SFK1bdno/s1600/lock-icon.png') 0px 2px no-repeat;
 }
 @media screen and (max-width: 500px) 
 {
@@ -665,7 +680,7 @@
     bottom: 20px;
 }
 .onp-sociallocker-dandyish .onp-sociallocker-state-loading .onp-sociallocker-button-inner-wrap { 
-    background-image: url('img/button-loader-ffffff.gif');
+    background-image: url('http://3.bp.blogspot.com/-kjieP0CoGsc/U5qZZrdYjRI/AAAAAAAAASA/UE8imLPctXM/s1600/button-loader-ffffff.gif');
 }
 
 /**
@@ -714,7 +729,7 @@
     width: 11px;
     height: 14px;
     margin: 0 9px;
-    background: url('img/lock-icon.png') 0px 2px no-repeat;
+    background: url('http://3.bp.blogspot.com/-zh68d9Qv_cQ/U5qZboEospI/AAAAAAAAASw/fX_SFK1bdno/s1600/lock-icon.png') 0px 2px no-repeat;
 }
 @media screen and (max-width: 500px) 
 {
@@ -743,7 +758,9 @@
 }
 
 
-/*** Flat style*/
+/**
+* Flat style
+*/
 .onp-sociallocker-flat .fb-like span,
 .onp-sociallocker-flat .fb-like iframe {
     width: 118px !important;
@@ -771,7 +788,7 @@
     width: 11px;
     height: 14px;
     margin: 0 9px;
-    background: url('img/lock-icon.png') 0px 2px no-repeat;
+    background: url('http://3.bp.blogspot.com/-zh68d9Qv_cQ/U5qZboEospI/AAAAAAAAASw/fX_SFK1bdno/s1600/lock-icon.png') 0px 2px no-repeat;
 }
 @media screen and (max-width: 500px) 
 {
@@ -807,7 +824,7 @@
 .onp-sociallocker-flat .onp-sociallocker-button .onp-sociallocker-overlay-icon {
     height: 34px;
     width: 44px;
-    background-image: url('img/social-icons.png');
+    background-image: url('http://1.bp.blogspot.com/-0XAzn5_MtDA/U5qZcIegt6I/AAAAAAAAASY/MkLnSkKpoz0/s1600/social-icons.png');
     background-repeat: no-repeat;
     background-position-y: 50%;
     position: absolute;
@@ -890,7 +907,9 @@
     color: #777;
 }
 
-/*** Like Button Widget styles*/
+/**
+* Like Button Widget styles
+*/
 
 .onp-sociallocker-horizontal.onp-sociallocker-has-counters .onp-facebook-like-es_ES,
 .onp-sociallocker-horizontal.onp-sociallocker-has-counters .onp-facebook-share-es_ES {
